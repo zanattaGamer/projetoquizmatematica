@@ -1,96 +1,37 @@
-body {
-
-
-    background: #ce4a4a;
-
-
+body
+{
+	background: lightblue;
+	color:rgb(245, 9, 9);
 }
 
+	.login_div1 , .login_div2
+	{
+		background: rgb(249, 249, 2);
+		padding: 10px;
+		float: none;
+		border-radius: 15px;
+	}
 
 
-
-
-
-
-.login_div1,
-.login_div2 {
-
-
-    background: rgb(22, 6, 248);
-
-
-    padding: 10px;
-
-
-    float: none;
-
-
-    border-radius: 15px;
-
- color:beige;
+#player1Name , #player2Name
+{
+	display: inline-block;
+	margin-left: 20px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-#player1_name,
-#player2_name {
-
-
-    display: inline-block;
-
-
-    margin-left: 20px;
-
-
+#word
+{
+	width: 60%;
 }
-
-
-#word {
-
-
-    width: 60%;
-
-
+#wordDisplay
+{
+	letter-spacing: 5px;
 }
-
-
-#word_display {
-
-
-    letter-spacing: 5px;
-
-
-}
-
-
-#output {
-
-
-    background: white;
-
-
-    border-radius: 10px;
-
-
-    border-top: 10px solid #AA4465;
-
-
-    padding: 10px;
-
-
-    float: none;
-
-
-    text-align: left;
-
-
+#output
+{
+background: white;
+border-radius: 10px;
+border-top: 10px solid #AA4465;
+padding: 10px;
+float: none;
+text-align: left;
 }
